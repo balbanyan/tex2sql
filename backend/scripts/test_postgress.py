@@ -1,10 +1,9 @@
-
 import asyncio
 import asyncpg
 
 async def test():
     try:
-        conn = await asyncpg.connect('postgresql://postgres:password123@localhost:5432/tex2sql')
+        conn = await asyncpg.connect('postgresql://postgres:password@localhost:5432/tex2sql')
         result = await conn.fetchval('SELECT 1')
         await conn.close()
         print('✅ Database connection successful!')

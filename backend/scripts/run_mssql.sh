@@ -1,4 +1,4 @@
-sudo docker run -e "ACCEPT_EULA=Y" \
+docker run -e "ACCEPT_EULA=Y" \
     -e "MSSQL_SA_PASSWORD=l.messi10" \
     -p 1433:1433 \
     --name sqlserver2022 \

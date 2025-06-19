@@ -2,7 +2,7 @@
 echo "Starting Tex2SQL API Server..."
 echo "================================"
 
-source ../venv/bin/activate
+source ./.venv/bin/activate
 
 echo "Virtual environment activated"
 

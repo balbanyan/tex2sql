@@ -1,0 +1,6 @@
+add .venv
+review entire codebase
+add readme
+add comments
+re-factor code - clean up
+seperate connections and model modules
